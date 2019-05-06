@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> 
+            div
+            {
+                margin: 10% 30%;
+                height: 150px;
+                width: 350px;
+                border: 7.2px solid pink;               
+                background-color: cyan;
+                padding: 4%; 
+                border: none;
+                border-radius: 125px;
+                box-shadow: 0 9px #999;
+            }
+              .xd 
+              {
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: yellow;
+                background-color: black;
+                border: none;
+                border-radius: 75px;
+                box-shadow: 0 9px #999;
+               }   
+                   
+        </style>
+    </head>
+    <body>
+        <form name="forma1" action="second">
+        <div>
+            <b>Ingresa primer numero:</b>
+            <input type="text" name="timerl"/><br><br>
+             <b>Ingresa segundo numero:</b>
+        <input type="text" name="timer2"/>
+        <br><br>
+        <b>Escoger operador:</b>
+        <b><select name="operador">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            </select></b><br><br>       
+        <input type="submit" name="boton1" value="calcular" class="xd"/> 
+        </div>
+        </form>
+    </body>
+</html>
